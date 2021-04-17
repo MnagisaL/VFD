@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc559a47991e762448d283a8192f12c1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - nametext: {instanceID: 0}
+  - text_talk: {instanceID: 0}
+  - Push_Button: {fileID: 8300000, guid: ae44b194ec2eca941aef9fcab9f8da8b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
