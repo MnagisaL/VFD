@@ -67,6 +67,7 @@ public class CharacterAnimation : MonoBehaviour
         return clipLength;
     }
 
+
     private void AnimationRun()  //アニメーション実行
     {
         if (characterText.GetisCheckTextEnd())
@@ -75,6 +76,7 @@ public class CharacterAnimation : MonoBehaviour
         if (int.Parse(SpilitPointandTransiition(animationLine)[0]) == characterText.GettextLine())
         {
             Checkanimationstring(SpilitPointandTransiition(animationLine)[1]);
+            characterAnimator.enabled = true;
             characterAnimator.SetTrigger(SpilitPointandTransiition(animationLine)[1]);
             animationOnceArray[animationLine] = true;
             animationLine++;
